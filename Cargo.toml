@@ -1,0 +1,8 @@
+[package]
+name = "femwm"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+penrose = { version = "0.3.5", features = ["x11rb-xcb"] }
+tracing-subscriber = { version = "0.3.18", features = ["env-filter", "json"] }
